@@ -1,0 +1,213 @@
+.plans {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./images/4722384.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    overflow: auto; /* Enable scrolling */
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    background: #333; opacity: 0.8; filter: alpha(opacity=80);
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Navigation menu styles */
+  nav {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+    
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        background: transparent;
+      }
+  
+      h3 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: black;
+      }
+  
+      form {
+        margin-bottom: 20px;
+      }
+  
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: black;
+      }
+  
+      input[type="text"],
+      select,
+      input[type="number"] {
+        width: 100%;
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        transition: border-color 0.3s ease;
+      }
+  
+      input[type="text"]:focus,
+      select:focus,
+      input[type="number"]:focus {
+        border-color: #ec7e18;
+        outline: none;
+      }
+  
+      .row {
+        margin-bottom: 10px;
+      }
+  
+      .row::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+  
+      .col {
+        float: left;
+      }
+  
+      .col-2 {
+        width: 16.67%;
+      }
+  
+      .col-8 {
+        width: 66.67%;
+      }
+  
+      .btn {
+        display: inline-block;
+        padding: 8px 16px;
+        border-radius: 5px;
+        border: none;
+        color: #fff;
+        background-color: #ec7e18;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+  
+      .btn-danger {
+        background-color: #f85374;
+      }
+  
+      .btn:hover,
+      .btn:focus {
+        background-color: black;
+      }
+  
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+  
+      th,
+      td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+        font-size: larger;
+        color: #ec7e18; 
+        font-weight: bolder;
+      }
+  
+      thead th {
+        background-color: #876633;
+        color: #fff;
+      }
+  
+      tfoot th {
+        background-color: #f1e5d1;
+        font-weight: bold;
+      }
+  
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+  
+      @keyframes slideInRight {
+        from {
+          transform: translateX(100%);
+        }
+        to {
+          transform: translateX(0);
+        }
+      }
+  
+      .animated {
+        animation-duration: 0.5s;
+        animation-fill-mode: both;
+      }
+  
+      .fadeIn {
+        animation-name: fadeIn;
+      }
+  
+      .slideInRight {
+        animation-name: slideInRight;
+      }
+      footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #333; opacity: 0.5; filter: alpha(opacity=50);
+  }

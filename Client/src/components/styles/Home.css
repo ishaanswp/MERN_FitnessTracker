@@ -1,0 +1,116 @@
+/* Global styles */
+.home-container {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  /* background-image: url('images/homepagepic.jpg'); */
+  background:
+  /* top, transparent black, faked with gradient */ 
+  linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.1)
+  ),
+  /* bottom, image */
+  url('images/homepagepic.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  overflow: auto; /* Enable scrolling */
+}
+
+.home-banner {
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.home-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.home-login,
+.home-registration {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  color: #fff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.home-login h2,
+.home-registration h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.home-login form,
+.home-registration form {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-login .form-row,
+.home-registration .form-row {
+  margin-bottom: 10px;
+
+}
+
+.home-login label,
+.home-registration label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.home-login input[type="email"],
+.home-registration input[type="email"],
+.home-login input[type="password"],
+.home-registration input[type="password"],
+.home-registration input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.home-login button[type="submit"],
+.home-registration button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.home-login button[type="submit"]:hover,
+.home-registration button[type="submit"]:hover {
+  background-color: #555;
+}
+
+.home-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
